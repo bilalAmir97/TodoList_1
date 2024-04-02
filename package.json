@@ -1,0 +1,23 @@
+{
+  "name": "bilal_todolist_1",
+  "version": "1.0.2",
+  "description": "This is a Todolist",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Bilal Amir",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "bilal_todolist_1": "^1.0.1",
+    "inquirer": "^9.2.17"
+  }
+}
